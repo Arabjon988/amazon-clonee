@@ -1,0 +1,127 @@
+*{
+    list-style-type: none;
+}
+.Header{
+    width: 100%;
+  height: auto;
+    position: absolute;
+    top: 1800px;
+}
+.hello{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(44, 57, 58);
+    border: none;
+    outline: none;
+}
+
+.hello > h3 > a{
+ color: #fff;
+}
+
+.Header{
+    margin-top: 50px;
+}
+.kotta{
+    width: 100%;
+    padding: 70px;
+    height: 60vh;
+    background-color: rgb(33, 47, 48);
+  display: flex;
+  justify-content: space-around;
+}
+.kotta > ul >  h2 {
+ color: #fff;
+ cursor: pointer;
+ font-size: 18px;
+}
+.kotta > ul > li{ 
+    color: #fff;
+    padding: 5px 0px;
+    cursor: pointer;
+   font-size: 13px;
+}
+.footer__line{
+    width: 100%;
+    height: 1px;
+    background-color: cadetblue;
+}
+.footer__logo{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(33, 47, 48);
+    display: flex;
+  
+     justify-content: center;
+}
+.footer__logo > img {
+    height: 50px;
+    margin-top: 30px;
+}
+.footer__logo > button {
+    padding: 0px 10px;
+    margin: 30px 5px;
+    border: 1px solid cadetblue;
+    cursor: pointer;
+}
+.kottadive{
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    background-color: red;
+  margin-top: 340px;
+ margin-left: -20px;
+ transform: scale(0);
+}
+.btn1:hover .kottadive{
+    transform: scale(1);
+}
+.btn1{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.btn1 > h4 {
+padding: 0px 10px;
+}
+.btn1 > svg {
+    padding-left: 10px;
+    font-size: 30px;
+}
+.btn1 > span{
+display: grid;
+padding: 0px 10px;             
+}
+.btn1 > img {
+    height: 15px;
+    padding-left: 10px;
+}
+.kottasi{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(44, 57, 58);
+    display: flex;
+    justify-content: center;
+}
+.birinchisi{
+    padding: 30px 30px;
+    font-size: 16px;
+}
+.birinchisi ul {
+    padding: 10px 0px;
+    cursor: pointer;
+ color: #fff;
+}
+.birinchisi > ul > li {
+    font-size: 13px;
+    color: rgb(117, 114, 109);
+}
+
+
+.oxirih2{
+    position: absolute;
+    margin-top: 65vh;
+    color: #fff;
+    font-weight: 200;
+}

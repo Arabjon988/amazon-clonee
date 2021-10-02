@@ -1,0 +1,47 @@
+.sidebar__item{
+    width: 100%;
+
+    /* overflow-x: hidden;
+    overflow-y: auto; */
+}
+.categories{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    overflow: hidden;
+ }
+ .main__menu{
+    padding: 10px 30px;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+ }
+ .main__menu > svg{
+     font-size: 20px;
+     margin-right: 12px;
+     color: #999;
+ }
+ .main__menu:hover > svg{
+     color: #000;
+ }
+ .main__menu:hover{
+    background: #f0f0f0;
+    cursor: pointer;
+}
+ .categories__title{
+     padding: 16px 30px 10px 30px;
+ }
+ .categories__collectionItem{
+     list-style: none;
+     padding: 12px 30px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     font-size: 14px;
+ }
+ .categories__collectionItem:hover{
+     background: #f0f0f0;
+     cursor: pointer;
+ }
